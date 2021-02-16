@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "JavaScript development environment packages for use to build a Node.js project, obtained from: https://www.npmjs.com/search?q=",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel open:src",
-    "open:src": "node buildScripts/srcServer.js"
+    "open:src": "babel-node buildScripts/srcServer.js"
   },
   "author": "Cory House",
   "license": "MIT",
