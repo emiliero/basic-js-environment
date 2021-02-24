@@ -1,6 +1,6 @@
 {
   "name": "basic-js-environment",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JavaScript development environment packages for use to build a Node.js project, obtained from: https://www.npmjs.com/search?q=",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
