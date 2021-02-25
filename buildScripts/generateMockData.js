@@ -1,10 +1,10 @@
+/* eslist-disable no-console */
+
 /* This script generates mock data for local development.
-  This way oyu don't have to point to an actual API,
+  This way you don't have to point to an actual API,
   but you can enjot realistic, but randomized data,
   and rapid page loads due to local, static data.
 */
-
-/* eslist-disable no-console */
 
 import jsf from 'json-schema-faker';
 import {schema} from './mockDataSchema';
